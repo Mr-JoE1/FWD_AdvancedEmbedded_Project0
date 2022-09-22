@@ -1,0 +1,70 @@
+Dependencies for Project 'TivaC_Blink_FWD', Target 'TM4C123GH6PM': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (.\Src\App\main.c)(0x632C84C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -w -I ./Src/App -I ./Src/Common -I ./Src/Config -I ./Src/MCAL/DioDriver -I ./Src/MCAL/GptDrivier -I ./Src/MCAL/PortDriver-I./RTE/_TM4C123GH6PM-IC:/Users/pc/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/pc/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
+I (Src\MCAL\PortDriver\port.h)(0x63277333)
+I (Src\Common\Std_Types.h)(0x632106E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6252B536)
+I (Src\Common\tm4c123gh9pm_HW.h)(0x632C46C7)
+I (Src\MCAL\DioDriver\dio.h)(0x63210C1A)
+I (Src\MCAL\GptDrivier\timer.h)(0x632C7DA0)
+I (Src\Config\Timer_Cfg.h)(0x632C5F4F)
+F (.\Src\Common\systick.c)(0x631E7EFB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -w -I ./Src/App -I ./Src/Common -I ./Src/Config -I ./Src/MCAL/DioDriver -I ./Src/MCAL/GptDrivier -I ./Src/MCAL/PortDriver-I./RTE/_TM4C123GH6PM-IC:/Users/pc/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/pc/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/systick.o -MD)
+I (Src\Common\systick.h)(0x631E77C2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Src\Common\tm4c123gh9pm_HW.h)(0x632C46C7)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6252B536)
+F (.\Src\Common\systick.h)(0x631E77C2)()
+F (.\Src\Common\tm4c123gh9pm_HW.h)(0x632C46C7)()
+F (.\Src\Common\Std_Types.h)(0x632106E4)()
+F (.\Src\MCAL\DioDriver\dio.c)(0x6328846D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -w -I ./Src/App -I ./Src/Common -I ./Src/Config -I ./Src/MCAL/DioDriver -I ./Src/MCAL/GptDrivier -I ./Src/MCAL/PortDriver-I./RTE/_TM4C123GH6PM-IC:/Users/pc/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/pc/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/dio.o -MD)
+I (Src\MCAL\DioDriver\dio.h)(0x63210C1A)
+I (Src\Common\Std_Types.h)(0x632106E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6252B536)
+I (Src\Common\tm4c123gh9pm_HW.h)(0x632C46C7)
+F (.\Src\MCAL\DioDriver\dio.h)(0x63210C1A)()
+F (.\Src\MCAL\GptDrivier\timer.c)(0x632C806B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -w -I ./Src/App -I ./Src/Common -I ./Src/Config -I ./Src/MCAL/DioDriver -I ./Src/MCAL/GptDrivier -I ./Src/MCAL/PortDriver-I./RTE/_TM4C123GH6PM-IC:/Users/pc/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/pc/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/timer.o -MD)
+I (Src\MCAL\GptDrivier\timer.h)(0x632C7DA0)
+I (Src\Common\Std_Types.h)(0x632106E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6252B536)
+I (Src\Common\tm4c123gh9pm_HW.h)(0x632C46C7)
+I (Src\Config\Timer_Cfg.h)(0x632C5F4F)
+F (.\Src\MCAL\GptDrivier\timer.h)(0x632C7DA0)()
+F (.\Src\MCAL\PortDriver\port.c)(0x63212FE8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -w -I ./Src/App -I ./Src/Common -I ./Src/Config -I ./Src/MCAL/DioDriver -I ./Src/MCAL/GptDrivier -I ./Src/MCAL/PortDriver-I./RTE/_TM4C123GH6PM-IC:/Users/pc/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/pc/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port.o -MD)
+I (Src\MCAL\PortDriver\port.h)(0x63277333)
+I (Src\Common\Std_Types.h)(0x632106E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6252B536)
+I (Src\Common\tm4c123gh9pm_HW.h)(0x632C46C7)
+I (Src\Config\Port_Cfg.h)(0x6321102C)
+F (.\Src\MCAL\PortDriver\port.h)(0x63277333)()
+F (.\Src\Config\Port_Cfg.h)(0x6321102C)()
+F (.\Src\Config\Port_Lcfg.c)(0x632C18C7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -w -I ./Src/App -I ./Src/Common -I ./Src/Config -I ./Src/MCAL/DioDriver -I ./Src/MCAL/GptDrivier -I ./Src/MCAL/PortDriver-I./RTE/_TM4C123GH6PM-IC:/Users/pc/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/pc/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port_lcfg.o -MD)
+I (Src\Config\Port_Cfg.h)(0x6321102C)
+I (Src\MCAL\PortDriver\port.h)(0x63277333)
+I (Src\Common\Std_Types.h)(0x632106E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6252B536)
+I (Src\Common\tm4c123gh9pm_HW.h)(0x632C46C7)
+F (.\Src\Config\Timer_Cfg.h)(0x632C5F4F)()
+F (.\Src\Config\Timer_Lcfg.c)(0x632C7EDB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -w -I ./Src/App -I ./Src/Common -I ./Src/Config -I ./Src/MCAL/DioDriver -I ./Src/MCAL/GptDrivier -I ./Src/MCAL/PortDriver-I./RTE/_TM4C123GH6PM-IC:/Users/pc/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/pc/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/timer_lcfg.o -MD)
+I (Src\Config\Timer_Cfg.h)(0x632C5F4F)
+I (Src\MCAL\GptDrivier\timer.h)(0x632C7DA0)
+I (Src\Common\Std_Types.h)(0x632106E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6252B536)
+I (Src\Common\tm4c123gh9pm_HW.h)(0x632C46C7)
+I (Src\MCAL\DioDriver\dio.h)(0x63210C1A)
+F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x51B6E406)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4-I./RTE/_TM4C123GH6PM-IC:/Users/pc/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/pc/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x632C7E6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -w -I ./Src/App -I ./Src/Common -I ./Src/Config -I ./Src/MCAL/DioDriver -I ./Src/MCAL/GptDrivier -I ./Src/MCAL/PortDriver-I./RTE/_TM4C123GH6PM-IC:/Users/pc/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/pc/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (C:\Users\pc\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\pc\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\pc\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F9F3E)
+I (C:\Users\pc\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F9F3E)
+I (C:\Users\pc\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F9F3E)
+I (C:\Users\pc\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F9F3E)
+I (C:\Users\pc\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F9F3E)
+I (C:\Users\pc\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
